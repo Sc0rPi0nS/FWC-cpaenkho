@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.image1, .image2 {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url(first.jpg);
+}
+
+.image2 {
+    background-image: url(second.jpg);
+}
+
+.content {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.text {
+    color: white;
+}
