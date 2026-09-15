@@ -1,0 +1,26 @@
+#new-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#new-btn:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+#ft_list {
+    border: 1px solid #333;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.todo-item {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
