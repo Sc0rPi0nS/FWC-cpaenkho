@@ -14,13 +14,17 @@ function calculate(left, operator, right) {
         return left * right;
     }
     else if (operator == '/') {
-        return left / right;
+        if (right == 0) {
+            return 'It\'s over 9000!'
+        } else {
+            return left / right;
+        }
     }
     else if (operator = '%') {
         if (right == 0) {
-            return "Error :(";
+            return 'It\'s over 9000!'
         } else {
-            return left % right;
+            return left / right;
         }
     }
     else {
